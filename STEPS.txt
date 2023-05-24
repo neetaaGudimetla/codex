@@ -1,0 +1,21 @@
+Extract the "codexAI-App.zip" file
+
+From server folder [E:\codexAI-App\server]
+**************
+npm run server
+**************
+test it..in a browser
+http://localhost:5000
+
+From client folder [E:\codexAI-App\client]
+**************
+npm run dev
+**************
+NOTE:Once we get the API Key with proper rate limit...change that key in the below file
+----
+E:\codexAI-App\server\.env
+
+OPENAI_API_KEY='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'
+OPENAI_ORGANIZATIONID='org-QwWwbjNULUGLNVT6f1vzONQg'
+
+change OPENAI_API_KEY and OPENAI_ORGANIZATIONID
